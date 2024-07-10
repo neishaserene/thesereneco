@@ -32,6 +32,31 @@ section {
     background-size: cover;
 }
 
+.btn {
+    padding: 14px 22px;
+    font-size: 1.1rem;
+    background-color: #343a40;
+    transition: all 0.4s ease;
+}
+
 .navbar {
     box-shadow: 0 12px 20px rgba(0,0,0,0.1);
 }
+
+.img {
+    width: 100%;
+}
+
+.service-img {
+    font-size: 2rem;
+    width: 90px;
+    height: 90px;
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
