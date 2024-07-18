@@ -18,12 +18,12 @@
     <title>The Serene Collective | Websites and Digital Products</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-aos-easing="ease" data-aos-duration="800" data-aos-delay="0">
 
     <!---- NAVIGATION BAR SECTION ---->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" data-aos="fade-down">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="#">THE SERENE COLLECTIVE</a>
+            <a class="navbar-brand pe-4 fs-4 fw-normal" href="#home">The Serene Collective</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -56,12 +56,12 @@
     <!---- HERO SECTION ---->
     <section id="home" class="bg-cover hero-section">
        <!-- <div class="overlay"></div> -->
-        <div class="container text-center">
+        <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h1 class="display-1 fw-bold mt-5" data-aos="fade-down" data-aos-delay="400">Let's Build An Amazing Website, Together!</h1>
-                    <p class="my-4 lead" data-aos="fade-up" data-aos-delay="600">We create stunning, user-friendly websites and digital products for small business owners. We'll bring your vision to life and help your business thrive online.</p>
-                    <a href="#" data-aos="fade-up" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5">Get started</a>
+                <div class="col-12 col-lg-8" data-aos="fade-right" data-aos-duration="800">
+                    <h1 class="display-1 fw-bold mt-5">Let's Build An Amazing Website, Together!</h1>
+                    <p class="my-4 lead">We create stunning, user-friendly websites and digital products for small business owners. We'll bring your vision to life and help your business thrive online.</p>
+                    <a href="#contact" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5">Get started</a>
                 </div>
             </div>
         </div>
@@ -69,42 +69,44 @@
 
 
     <!---- SERVICES SECTION ---->
-
     <section id="services" class="text-center">
         <div class="container bg-white">
             <div class="row">
-                <div class="col-12 section-intro text-center">
-                    <h2 class="display-5 mt-5 mb-3" data-aos="fade-down" data-aos-delay="400">Explore Our Services</h2>
-                    <p class="lead mb-5" data-aos="fade-down" data-aos-delay="500">Let's grow your business!
+                <div class="col-12 section-intro text-center" data-aos="fade-down" data-aos-delay="800">
+                    <h2 class="display-5 mt-5 mb-3">Explore Our Services</h2>
+                    <p class="lead mb-5">ENHANCE YOUR ONLINE PRESENCE
                     </p>
                 </div>
             </div>
             <div class="row g-4">
-                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="service">
                         <div class="service-img">
-                            <img src="img/image_1.jpg" alt="">    
+                            <img src="img/webdev.png" class="rounded-circle" alt="Web Development">    
                         </div>
                         <h5 class="mt-5 pt-4">WEB DEVELOPMENT</h5>
                         <p>We specialize in creating visually stunning and highly functional websites tailored to your unique business needs.</p>
+                        <a href="#websites" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-3">LEARN MORE</a>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
                     <div class="service">
                         <div class="service-img">
-                            <img src="img/image_2.jpg" alt="">
+                            <img src="img/webdigitalproducts.png" class="rounded-circle" alt="Digital Products">
                         </div>
                         <h5 class="mt-5 pt-4">DIGITAL PRODUCTS</h5>
-                        <p>We offer a range of customizable templates, including courses, presentations, ebooks, and leadmagnets.</p>
+                        <p>We offer a range of customizable templates, including online courses, presentations, e-mail, ebooks, and leadmagnets.</p>
+                        <a href="#digitalproducts" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-3">LEARN MORE</a>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
                     <div class="service">
                         <div class="service-img">
-                            <img src="img/image_3.jpg" alt="">
+                            <img src="img/webgrowth.png" alt="Business Growth" class="rounded-circle">
                         </div>
                         <h5 class="mt-5 pt-4">BUSINESS GROWTH</h5>
-                        <p>We will teach you how to build, develop and grow a successful small business, step-by-step, from scratch!</p>
+                        <p>Our business resources at Seed Water Sun will teach you how to build, develop and grow a successful small business, step-by-step, from scratch!</p>
+                        <a href="https://www.seedwatersun.com" target="_blank" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-3">LEARN MORE</a>
                     </div>
                 </div>
             </div>
@@ -117,7 +119,7 @@
         <div class="container text-white text-center">
             <div class="row d-flex justify-content-center">
                 <div class="col-12 section-intro text-center" data-aos="fade-up">
-                  <p class="text-secondary lead mt-3">Are you ready?</p>
+                  <p class="text-secondary lead mt-5">ARE YOU READY?</p>
                   <h2 class="display-6 mb-5">Let's create an amazing website!</h2>
                     <div class="col-12">
                       <a href="#contact" class="btn btn-warning btn-xl shadow me-3 mt-4" data-aos="fade-down">Get Started</a>
@@ -128,45 +130,46 @@
     </section>
 
     <!---- WEB DEVELOPMENT SECTION ---->
-    <section id="websites" class="text-center">
+    <section id="websites" class="text-left">
         <div class="container">
             <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <h2 class="display-5 mt-5">Web Development</h2>
-                    <p class="lead">We specialize in creating visually stunning + highly functional websites tailored to your business need.
+                <div class="col-12 section-intro" data-aos="fade-up">
+                    <h2 class="display-5 mt-5">WEB DEVELOPMENT</h2>
+                    <p class="fs-4"><strong>At The Serene Collective, </strong>we excel in crafting visually stunning and highly functional websites tailored specifically to your business needs. Explore the incredible benefits of our services below:
                     </p>
                 </div>
             </div>
-            <div class="row gx-4 gy-5">
+            <div class="row">
                 <div class="col-md-4 feature" data-aos="fade-up">
                     <div class="icon"><i class="icon-tools"></i></div>
-                    <h5 class="mt-4 mb-3">Custom Design</h5>
+                    <h5 class="mt-4 mb-3 text-uppercase">Custom Designs</h5>
                     <p>Ensure your website is uniquely tailored to reflect your brand, giving you a distinctive edge over competitors.</p>
                 </div>
                 <div class="col-md-4 feature" data-aos="fade-up">
                     <div class="icon"><i class="icon-browser"></i></div>
-                    <h5 class="mt-4 mb-3">Save Time</h5>
+                    <h5 class="mt-4 mb-3 text-uppercase">time saver</h5>
                     <p>We will efficiently handle the complex technical aspects, allowing you to focus on running your business.</p>
                 </div>
                 <div class="col-md-4 feature" data-aos="fade-up">
                     <div class="icon"><i class="icon-calendar"></i></div>
-                    <h5 class="mt-4 mb-3">Latest Technology</h5>
+                    <h5 class="mt-4 mb-3 text-uppercase">Latest Technology</h5>
                     <p>Stay updated with the latest technologies, ensuring your website is modern, secure, and high-performing.</p>
                 </div>
                 <div class="col-md-4 feature" data-aos="fade-up">
                     <div class="icon"><i class="icon-camera"></i></div>
-                    <h5 class="mt-4 mb-3">Professional Appearance</h5>
+                    <h5 class="mt-5 mb-3 text-uppercase">Professional Appearance</h5>
                     <p>Maintain a polished and aesthetically pleasing website, enhancing your brand's credibility.</p>
                 </div>
                 <div class="col-md-4 feature" data-aos="fade-up">
                     <div class="icon"><i class="icon-scissors"></i></div>
-                    <h5 class="mt-4 mb-3">Search Engine Optimization</h5>
+                    <h5 class="mt-5 mb-3 text-uppercase">Search Engine Optimization</h5>
                     <p>Implement SEO best practices, increasing your website's visibility and ranking on search engines.</p>
                 </div>
                 <div class="col-md-4 feature" data-aos="fade-up">
                     <div class="icon"><i class="icon-strategy"></i></div>
-                    <h5 class="mt-4 mb-3">Responsive + Mobile Friendly</h5>
+                    <h5 class="mt-5 mb-3 text-uppercase">Responsive + Mobile Friendly</h5>
                     <p>Ensure your website is fully responsive, providing an optimal user experience across all devices.</p>
+                </div>
                 </div>
             </div>
         </div>
@@ -175,24 +178,24 @@
     <!---- DEMO WEBSITES SECTION ---->
     <section class="bg-cover">
         <div class="overlay"></div>
-        <div class="container text-white text-center">
-            <h2 class="display-5 mt-5" data-aos="fade-down" data-aos-delay="300">Try an interactive demo!</h2>
-            <p class="lead mb-5" data-aos="fade-down" data-aos-delay="300">Explore our demo websites to get an idea of what you can expect</p>
+        <div class="container text-white">
+            <h2 class="display-5 mt-5" text-center data-aos="fade-down" data-aos-delay="300">Try an interactive demo!</h2>
+            <p class="lead mb-5" data-aos="fade-down" data-aos-delay="300"><strong>These are example websites for you to interact with. However, your website project will be unique and fully customizable, down to the smallest detail!</p>
             <div class="row gy-4 mt-5" data-aos="fade-up" data-aos-delay="300">
                 <div class="col-md-3">
-                    <h2 class="mt-3 mb-3">Classically Modern</h2>
+                    <h3 class="mt-3 mb-3">1 | Modern</h3>
                     <a href="#" class="btn btn-warning btn-sm shadow me-1 rounded-0 my-1">VIEW DEMO</a>
                 </div>
                 <div class="col-md-3">
-                    <h2 class="mt-3 mb-3">Bold and Attractive</h2>
+                    <h3 class="mt-3 mb-3">2 | Bold</h3>
                     <a href="#" class="btn btn-warning btn-sm shadow me-1 rounded-0 my-1">VIEW DEMO</a>
                 </div>
                 <div class="col-md-3">
-                    <h2 class="mt-3 mb-3">Impressively Sleek</h2>
+                    <h3 class="mt-3 mb-3">3 | Sleek</h3>
                     <a href="#" class="btn btn-warning btn-sm shadow me-1 rounded-0 my-1">VIEW DEMO</a>
                 </div>
                 <div class="col-md-3">
-                    <h2 class="mt-3 mb-3">Feminine Elegance</h2>
+                    <h3 class="mt-3 mb-3">4 | Feminine</h3>
                     <a href="#" class="btn btn-warning btn-sm shadow me-1 rounded-0 my-1">VIEW DEMO</a>
                 </div>
             </div>
@@ -218,7 +221,7 @@
                                 <small>View Demo</small>
                             </div>
                         </div>
-                        <p class="pt-4">Lead Magnets</p>
+                        <p class="pt-4">Lead Magnets are valuable resources offered for free to potential customers in exchange for their contact information.</p>
                         <a href="#" data-aos="fade-up" class="btn-main btn-dark shadow me-3 rounded-0 my-5">ADD TO CART</a>
                     </div>
                 </div>
@@ -227,11 +230,11 @@
                     <div class="review p-4">
                         <div class="product">
                             <div class="text ms-3">
-                                <h6 class="mb-0">Workbook Templates</h6>
+                                <h6 class="mb-0">Workboook Templates</h6>
                                 <small>View Demo</small>
                             </div>
                         </div>
-                        <p class="pt-4">Workbooks</p>
+                        <p class="pt-4">Workbooks provide structured, interactive content for your customers. They foster engagement and improve customer retention.</p>
                         <a href="#" data-aos="fade-up" class="btn-main btn-dark shadow me-3 rounded-0 my-5">ADD TO CART</a>
                     </div>
                 </div>
@@ -244,7 +247,7 @@
                                 <small>View Demo</small>
                             </div>
                         </div>
-                        <p class="pt-4">E-Mail Templates</p>
+                        <p class="pt-4">E-Mails provide customers with targeted offers and updates, which drive sales and enhances brand loyalty.</p>
                         <a href="#" data-aos="fade-up" class="btn-main btn-dark shadow me-3 rounded-0 my-5">ADD TO CART</a>
                     </div>
                 </div>
@@ -257,7 +260,7 @@
                                 <small>View Demo</small>
                             </div>
                         </div>
-                        <p class="pt-4">Online Courses</p>
+                        <p class="pt-4">Online courses deliver valuable knowledge, establishing your business as an authority, and generates additional revenue.</p>
                         <a href="#" data-aos="fade-up" class="btn-main btn-dark shadow me-3 rounded-0 my-5">ADD TO CART</a>
                     </div>
                 </div>
@@ -270,7 +273,7 @@
                                 <small>View Demo</small>
                             </div>
                         </div>
-                        <p class="pt-4">Presentations</p>
+                        <p class="pt-4">Presentations convey key information, showcasing your products/services while boosting credibility and facilitating growth.</p>
                         <a href="#" data-aos="fade-up" class="btn-main btn-dark shadow me-3 rounded-0 my-5">ADD TO CART</a>
                     </div>
                 </div>
@@ -283,7 +286,7 @@
                                 <small>View Demo</small>
                             </div>
                         </div>
-                        <p class="pt-4">eBooks</p>
+                        <p class="pt-4">eBooks educates customers and captures leads by offering valuable content in exhange for contact information.</p>
                         <a href="#" data-aos="fade-up" class="btn-main btn-dark shadow me-3 rounded-0 my-5">ADD TO CART</a>
                     </div>
                 </div>
